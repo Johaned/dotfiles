@@ -1,5 +1,9 @@
 export PATH
-PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
+# TODO: path remove has a problem with the wildcard
+# PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
+# I had to hardcode the common value "default", however this is a temporal solution while I find another method for
+# removing paths from the $PATH
+PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/default/bin)"
 
 # Set a specific version of node as the "default" for "nave use default"
 function nave_default() {
