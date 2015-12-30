@@ -40,10 +40,7 @@ sudo apt-get -qq dist-upgrade
 # Install APT packages.
 packages=(
   aptitude
-  curl
-  wget
   ansible
-  tree
   build-essential
   cowsay
   git-core
@@ -56,6 +53,7 @@ packages=(
   silversearcher-ag
   sl
   telnet
+  tree
 )
 
 packages=($(setdiff "${packages[*]}" "$(dpkg --get-selections | grep -v deinstall | awk '{print $1}')"))
