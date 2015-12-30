@@ -2,6 +2,9 @@
 
 My OSX / Ubuntu dotfiles.
 
+
+My dots repository, taken from [dofiles](https://github.com/cowboy/dotfiles) not forked to not mess up everybody's network graph.
+
 ## About this project
 
 I've been using bash on-and-off for a long time (since Slackware Linux was distributed on 1.44MB floppy disks). In all that time, every time I've set up a new Linux or OS X machine, I've copied over my `.bashrc` file and my `~/bin` folder to each machine manually. And I've never done a very good job of actually maintaining these files. It's been a total mess.
@@ -129,25 +132,31 @@ I think [my bash prompt](source/50_prompt.sh) is awesome. It shows git and svn r
 
 Git repos display as **[branch:flags]** where flags are:
 
-**?** untracked files  
-**!** changed (but unstaged) files  
+**?** untracked files
+**!** changed (but unstaged) files
 **+** staged files
 
 SVN repos display as **[rev1:rev2]** where rev1 and rev2 are:
 
-**rev1** last changed revision  
+**rev1** last changed revision
 **rev2** revision
 
 Check it out:
 
 ![My awesome bash prompt](http://farm8.staticflickr.com/7142/6754488927_563dd73553_b.jpg)
 
+## Contributors
+
+* [Ben Alman](https://github.com/cowboy)
+* [Johan Tique](https://github.com/johaned)
+
+
 ## Inspiration
-<https://github.com/gf3/dotfiles>  
-<https://github.com/mathiasbynens/dotfiles>  
+<https://github.com/gf3/dotfiles>
+<https://github.com/mathiasbynens/dotfiles>
 (and 15+ years of accumulated crap)
 
 ## License
-Copyright (c) 2014 "Cowboy" Ben Alman  
-Licensed under the MIT license.  
+Copyright (c) 2015 "Cowboy" Ben Alman
+Licensed under the MIT license.
 <http://benalman.com/about/license/>
