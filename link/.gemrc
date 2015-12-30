@@ -1,4 +1,5 @@
---- 
+---
+gem: --no-document
 :benchmark: false
 :update_sources: true
 :backtrace: false

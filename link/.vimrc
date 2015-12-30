@@ -72,7 +72,7 @@ set nojoinspaces " Only insert single space after a '.', '?' and '!' with a join
 if has('win32')
   set listchars=tab:>\ ,trail:.,eol:$,nbsp:_,extends:>,precedes:<
 else
-  set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_,extends:>,precedes:<
+  set listchars=tab:>\ ,trail:·,eol:¬,nbsp:_,extends:>,precedes:<
 endif
 "set listchars=tab:>\ ,trail:.,eol:$,nbsp:_,extends:>,precedes:<
 "set fillchars=fold:-
