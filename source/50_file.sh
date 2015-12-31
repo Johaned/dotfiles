@@ -21,9 +21,11 @@ else
 fi
 
 # Easier navigation: .., ..., -
-alias ..='cd ..'
-alias ...='cd ../..'
-alias -- -='cd -'
+if [[ "$(echo $0)" =~ bash ]]; then
+  alias ..='cd ..'
+  alias ...='cd ../..'
+  alias -- -='cd -'
+fi
 
 # File size
 alias fs="stat -f '%z bytes'"

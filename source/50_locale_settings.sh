@@ -1,3 +1,4 @@
+# TODO: put all those settings in a gitignored file, they depend on each developer
 export LANGUAGE=en_US:en
 export LC_ALL=en_US.UTF-8
 export LC_PAPER=es_CO.UTF-8

@@ -53,6 +53,7 @@ packages=(
   silversearcher-ag
   sl
   telnet
+  zsh
   tree
 )
 
